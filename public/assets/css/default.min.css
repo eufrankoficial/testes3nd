@@ -51,10 +51,23 @@ body {
 }
 
 .add {
-	float: right;
-    margin-bottom: 20px;
-    margin-right: 20px;
+	float: right !important;
+	margin-bottom: 20px !important;
+	margin-right: 20px !important;
+	padding: 6px !important;
 }
+
+.add a {
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+.add a:hover {
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+
 
 .tabela-container, .form-container {
 	display: block;
@@ -81,11 +94,16 @@ body {
 }
 
 .funcionario .button {
-	margin-left: 27px;
 	text-align: center;
-	width: 200px;
+	width: 100px;
 	margin-right: 30px;
 	margin-bottom: 20px;
+	display: inline;
+	float: left;
+}
+
+.funcionario .button:first-child {
+
 }
 
 .funcionario .form-container {

@@ -8,8 +8,11 @@
 
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
-				<div class="button">
-					<router-link to="/funcionarios">Lista de funcionário</router-link>
+
+				<div class="button add">
+					<span class="button-add">
+						<router-link to="/funcionarios">Listagem</router-link>
+					</span>
 				</div>
 
 				<div class="row">

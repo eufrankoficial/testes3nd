@@ -9,7 +9,7 @@
 			
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
-				<div class="add">
+				<div class="button add">
 					<span class="button-add">
 						<router-link to="/funcionarios/adicionar">Adicionar</router-link>
 					</span>
@@ -34,7 +34,9 @@
 						      	<span class="button">
 						      		<router-link :to="'/funcionarios/editar/' + funcionario.slug">Editar</router-link>
 						      	</span>
-						      	<excluir-component :url="routeDelete + '/' + funcionario.slug" :url-after-delete="route"></excluir-component>
+						      	<span class="button">
+						      		<excluir-component :url="routeDelete + '/' + funcionario.slug" :url-after-delete="route"></excluir-component>
+						      	</span>
 						      </td>
 						    </tr>
 						  </tbody>

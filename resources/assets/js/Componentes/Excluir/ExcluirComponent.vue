@@ -1,5 +1,5 @@
 <template>
-    <a href="javascript:void(0)" class="btn btn-sm btn-default" data-type="confirm" @click="confirmaExclusao($event)">
+    <a href="javascript:void(0)" class="" data-type="confirm" @click="confirmaExclusao($event)">
         <i class="fa fa-trash text-white"></i> Excluir
     </a>
 </template>

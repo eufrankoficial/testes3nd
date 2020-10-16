@@ -31,8 +31,12 @@
             </div>
 
             <div class="col-lg-3">
-                <div class="form-group form-check">
-                    <a href="javascript:void(0);" class="btn btn-default" @click="adicionarDiaSemana($event)">Adicionar</a>
+                <div class="form-group">
+                    <div class="button add">
+                        <span class="button-add">
+                            <a href="javascript:void(0);" class="btn btn-default" @click="adicionarDiaSemana($event)">Adicionar</a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
